@@ -14,8 +14,8 @@ module.exports = {
     extensions: ['.js'],
   },
   output: {
-    path: path.resolve('./public/build/'),//Edit here
-    publicPath: '/public/build/',//Edit here
+    path: path.resolve('./public/build/'),
+    publicPath: '/Xxxxxxxxxxx/public/build/',//Edit here and replace with the folder name
     filename: '[name].js',
   },
   plugins: [new MiniCssExtractPlugin()],
